@@ -15,6 +15,6 @@ namespace GoogleNews.Pages
         public void OnGet()
         {
 
-        }
+        } 
     }
 }

@@ -40,7 +40,7 @@ const getTitles = () => {
     $.ajax({
         type: "GET",
         url: "/GoogleNews/GetAllNews",
-        contentType: "application/json; charset=utf-8",
+        contentType: "application/json; charset=utf-8", 
         dataType: "json",
         success: function (data) {
             const ul = document.getElementById("Titles");

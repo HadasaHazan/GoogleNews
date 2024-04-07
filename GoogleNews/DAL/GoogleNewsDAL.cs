@@ -11,7 +11,7 @@ namespace DAL
         private const string CacheKey = "GoogleNewsFeed";
 
         /// <summary>
-        /// c'tor 
+        /// c'tor  
         /// </summary>
         /// <param name="memoryCache"></param>
         public GoogleNewsDAL() {}
